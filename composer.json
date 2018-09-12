@@ -10,7 +10,8 @@
   "require": {
     "johnpbloch/wordpress": "4.9.8",
     "wpackagist-plugin/w3-total-cache": "*",
-    "wpackagist-plugin/google-analytics-for-wordpress": "*"
+    "wpackagist-plugin/google-analytics-for-wordpress": "*",
+    "wpackagist-theme/wp-bootstrap-starter": "*"
   },
   "require-dev": {
     "wpackagist-plugin/debug-bar": "*",
