@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad1e79f625f8777bd36a1b91ce543d53",
+    "content-hash": "ae2b0cc5dda8d53007b41a6a45758e7b",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,26 @@
                 "zikula"
             ],
             "time": "2018-08-27T06:10:37+00:00"
+        },
+        {
+            "name": "dave-mills/trial_wp_theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dave-mills/trial_wp_theme",
+                "reference": "c59cafa96a99f69341ba787c9b957d399d0979ff"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "authors": [
+                {
+                    "name": "Dave Mills",
+                    "email": "d.e.mills@stats4sd.org"
+                }
+            ],
+            "time": "2018-09-12T11:16:09+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -359,7 +379,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "dave-mills/trial_wp_theme": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
